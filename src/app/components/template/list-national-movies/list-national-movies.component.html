@@ -1,0 +1,87 @@
+<div class="nationalMovies">
+    <p class="titleM"><strong>{{subject}}</strong></p>
+    <div class="owl-carousel owl-theme ajustSlide2" >
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="item card-2" style="width:130px" *ngFor="let item of mov">
+            <!-- <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NjAzZGEwMmZhMWQxMDMwMDA4YWIyOWNj_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1615238041813" /> -->
+            
+            <span class="iconLock">
+
+                <ng-container *ngIf="item['isBlocked']; then e else f;"> </ng-container>
+                <ng-template #e>
+                    <i  class="material-icons md-48 ajIcon">lock</i> 
+                </ng-template>
+                <ng-template #f>
+                    <i  class="material-icons md-48 ajIcon">shopping_cart</i> 
+                </ng-template>
+                    
+               
+                
+                <!-- <i *ngIf="{{item['isBlocked'] === false}} " class="material-icons md-48 ajIcon">shopping_cart</i>
+
+                <i *ngIf="{{item['isBlocked'] === true}} " class="material-icons md-48 ajIcon">lock</i> -->
+            </span>
+            <img class="ajustImage imgU " src='{{item["images"][0].url}}' />
+      
+      
+        </div>
+        <!-- <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWEzOTAyNjQyYWY5ZjEwMDAxNmEyZjAz_11001_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614280234120" />
+        </div>
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWUyNmJlYTY5ZjY4NDFkZGMyMzQ1MGFk_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1613764015919" />
+        </div>
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/d2Fsa2luZ19kZWFkX3Nlcmll_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1603884010856" />
+        </div>
+       
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWZmYzU1MWVlZGViMWUwMDA5YzMwNDVl_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1611871275992" />
+        </div>
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWRkZTNjMjVmNjJjNzIyOWUyZjEzMTdk_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1610662111888" />
+        </div>
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NjAzNDYzNWQyZDljMmUwMDA4OTQ1OGE1_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614613209968" />
+        </div>
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWE0ZjE3YWIwNDNjZDIwMDAxYTE2Njgx_11032_COVER_VERTICAL_800x1200.jpeg?timestamp=1614953462844" />
+        </div>
+
+
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWZmYzU1MWVlZGViMWUwMDA5YzMwNDVl_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1611871275992" />
+        </div>
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWRkZTNjMjVmNjJjNzIyOWUyZjEzMTdk_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1610662111888" />
+        </div>
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NjAzNDYzNWQyZDljMmUwMDA4OTQ1OGE1_11032_COVER_VERTICAL_1000x1500.jpeg?timestamp=1614613209968" />
+        </div>
+        <div class="item card-2" style="width:130px">
+            <span class="iconLock"><i class="material-icons md-48 ajIcon">lock</i></span>
+            <img class="ajustImage imgU " src="https://d37wmy56xprd2c.cloudfront.net/fit-in/170x255/NWE0ZjE3YWIwNDNjZDIwMDAxYTE2Njgx_11032_COVER_VERTICAL_800x1200.jpeg?timestamp=1614953462844" />
+        </div> -->
+      
+        
+        
+    </div>
+</div>

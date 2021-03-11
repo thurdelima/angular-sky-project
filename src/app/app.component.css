@@ -1,0 +1,16 @@
+body{
+    margin: 0%;
+}
+
+.wTab {
+    width: 33.3% !important;
+}
+
+.mat-tab-label {
+    width: 33.3% !important;
+}
+
+.mat-tab-label, .mat-tab-link {
+    color: rgba(0,0,0,.87);
+    width: 33.3%;
+}

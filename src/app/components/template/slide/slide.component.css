@@ -1,0 +1,54 @@
+.ajustSlide {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ajustImage {
+    border-radius: 5px;
+}
+
+.owl-item {
+    
+}
+
+
+
+
+.ajustImage:hover {
+    transition: all 0.5s ease 0s;
+}
+
+.card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .owl-carousel .owl-item {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  ::ng-deep.owl-item {
+      margin: 20px 5px 20px 5px !important;
+  }
+
+  ::ng-deep.owl-theme ::ng-deep.owl-dots ::ng-deep.owl-dot span {
+      height: 5px;
+      width: 15px;
+      background: #869791;
+  }
+
+  ::ng-deep.owl-theme ::ng-deep.owl-dots ::ng-deep.owl-dot.active span, ::ng-deep.owl-theme ::ng-deep.owl-dots ::ng-deep.owl-dot:hover span {
+    
+    background: #f35c58;
+ }
+
+  ::ng-deep:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}

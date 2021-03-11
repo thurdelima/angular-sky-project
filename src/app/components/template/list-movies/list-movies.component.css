@@ -1,0 +1,92 @@
+.movies {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ajustSlide2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.titleM {
+   color: #606064;
+}
+
+.ajustImage {
+    border-radius: 5px;
+}
+
+/* ::ng-deep.owl-item .card-2 {
+    width: 139px !important;
+} */
+
+.imgU {
+    /* width: 139px !important; */
+    width: 130px;
+}
+
+::ng-deep.ajustSlide2 ::ng-deep.owl-item ::ng-deep.cloned  {
+    width: 139px !important;
+}
+
+
+.ajustImage:hover {
+    transition: all 0.5s ease 0s;
+}
+
+.card-2 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
+    cursor: pointer;
+    /* width: 139px; */
+    position: relative;
+}
+
+.iconLock {
+    color: white;
+    position: fixed;
+    right: 5px;
+}
+
+.ajIcon {
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 5px;
+    background: #00000094;
+    padding: 5px;
+    border: white inset 2px;
+}
+  
+  .card-2:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  /* .owl-carousel .owl-item {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  */
+
+  .movies ::ng-deep.owl-item {
+    margin: 20px 5px 20px 5px !important;
+    /* margin: 0 auto !important; */
+    /* width: 100% !important; */
+    width: auto !important;
+
+  } 
+
+  ::ng-deep.owl-theme ::ng-deep.owl-dots ::ng-deep.owl-dot span {
+      height: 5px;
+      width: 15px;
+      background: #869791;
+  }
+
+  ::ng-deep.owl-theme ::ng-deep.owl-dots ::ng-deep.owl-dot.active span, ::ng-deep.owl-theme ::ng-deep.owl-dots ::ng-deep.owl-dot:hover span {
+    
+    background: #f35c58;
+ }
+
+  ::ng-deep:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}

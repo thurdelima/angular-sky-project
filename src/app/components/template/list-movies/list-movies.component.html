@@ -1,0 +1,42 @@
+<div class="movies">
+    <p class="titleM"><strong>{{subject}}</strong></p>
+    <div class="owl-carousel owl-theme ajustSlide2" >
+    
+        
+    
+            <div class="item card-2 " style="width:130px" *ngFor="let item of mov" >
+              
+               
+                
+                <span class="iconLock">
+
+                    <ng-container *ngIf="item['isBlocked']; then e else f;"> </ng-container>
+                    <ng-template #e>
+                        <i  class="material-icons md-48 ajIcon">lock</i> 
+                    </ng-template>
+                    <ng-template #f>
+                        <i  class="material-icons md-48 ajIcon">shopping_cart</i> 
+                    </ng-template>
+                        
+                   
+                    
+                    <!-- <i *ngIf="{{item['isBlocked'] === false}} " class="material-icons md-48 ajIcon">shopping_cart</i>
+
+                    <i *ngIf="{{item['isBlocked'] === true}} " class="material-icons md-48 ajIcon">lock</i> -->
+                </span>
+                <img class="ajustImage imgU " src='{{item["images"][0].url}}' />
+             
+                
+                
+            </div>
+     
+          
+        
+        
+       
+         
+      
+        
+        
+    </div>
+</div>

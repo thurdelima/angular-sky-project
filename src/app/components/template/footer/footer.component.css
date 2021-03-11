@@ -1,0 +1,289 @@
+.logo {
+    /* background-image: url('https://skyplay.sky.com.br/o/sky-play-theme/images/logo-sky-white.svg'); */
+    width: 65px;
+    /* color: #f35c58; */
+}
+
+.aRow {
+    height: auto;
+}
+
+.footer {
+    
+    border-top: 1px double #8585a58a;
+}
+
+.res {
+    color: #606064;
+}
+
+.logoFooter {
+    width: 48px;
+    margin: 20px;
+}
+
+.vt {
+    background-color: #f5f5f5;
+}
+
+.option {
+    margin: 5px;
+}
+
+.descriptApp {
+    font-size: 1rem !important;
+    color: #606064;
+    height: 26px;
+}
+
+.descriptApp2 {
+    font-size: 1rem !important;
+    color: #606064;
+    
+}
+
+.le {
+    display: flex;
+    flex-grow: 2;
+
+}
+
+@media (max-width: 768px) {
+   
+    .le {
+        flex-wrap: wrap;
+    
+    }
+
+   
+           
+          
+}
+
+.er {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+   
+   
+
+    .er {
+        display: none;
+      
+    }
+
+   
+           
+          
+}
+
+
+
+.badgeApp {
+    width: 160px;
+}
+
+.badgeApp2 {
+    width: 142px;
+}
+
+.descE {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoDisclaimer {
+    display: flex;
+    /* align-items: center; */
+    margin-top: 20px;
+    flex-grow: 2;
+    
+}
+
+@media (max-width: 768px) {
+   
+    .logoDisclaimer {
+        align-items: center;
+        
+    }
+
+   
+           
+          
+}
+
+.ajustUl {
+    padding: 0px;
+}
+
+.logoDisclaimer2 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #606064;
+    flex-grow: 1;
+}
+
+.rt {
+    margin: 10px;
+}
+
+.mobileOptions {
+    display: none;
+}
+
+@media (max-width: 768px) {
+   
+   
+
+    
+    .logoDisclaimer2 {
+       flex-wrap: wrap;
+    }
+
+    .deskOptions {
+        display: none;
+    }
+
+    .mobileOptions {
+        display: inherit;
+    }
+           
+          
+}
+
+.logoDisclaimer3 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #606064;
+    flex-grow: 1;
+}
+
+.whiteRow {
+    background-color: white;
+    height: auto;
+}
+
+.roofTop2 {
+    font-family: "Roboto";
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.43;
+    color: #606064;
+    list-style: none;
+    outline: 0 none;
+    white-space: normal;
+    height: auto;
+    /* margin: 5px; */
+    margin: 5px 5px 5px 40px;
+   
+}
+
+
+a {
+    text-decoration: none;
+    color: #606064;
+}
+
+.roofTop {
+    font-size: 1rem;
+    
+    color: #606064;
+    white-space: normal;
+    margin: 5px 5px 5px 40px;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    height: auto;
+}
+
+ul li {
+    list-style: none;
+    outline: 0 none;
+}
+
+.otherMenu {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+
+.menuUser {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.ajustF {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    align-items: center;
+    border-bottom: 1px double #6060641c;
+    
+}
+
+.mAjust {
+
+}
+
+.lAjust {
+    flex-grow: 1;
+    margin-left: 40px
+}
+
+@media (max-width: 768px) {
+   
+   
+
+    
+    
+    .lAjust {
+        flex-grow: 1;
+        margin-left: 40px
+    }
+
+    .ajustF {
+        flex-grow: 1;
+    }
+           
+          
+}
+
+.letterE {
+    font-size: 1rem;
+}
+
+.letterP {
+    font-size: 1rem;
+    margin-left: 10px;
+    color: #606064;
+    
+}
+
+.letterT {
+   
+    margin-left: 20px;
+    color: #606064;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+
+.spaceIcon {
+    margin: 10px;
+    font-size: 25px;
+    color: #606064;
+}
+
+
+

@@ -1,0 +1,71 @@
+<!-- <mat-toolbar class="header mat-elevation-z4">
+    <span>
+        <a class="logo" routerLink="/">
+            <img class="logo" src="assets/img/logo-sky-white.png" alt="logo">
+            
+        </a>
+    </span>
+   
+    <span class="title-group">
+        
+            <div >
+                <mat-icon class="iconMenu">accessibility</mat-icon>
+            </div>
+            
+   
+    </span>
+</mat-toolbar> -->
+
+    <mat-toolbar class="header mat-elevation-z4 borderMenu" >
+        
+        <span>
+            <a class="logo" routerLink="/">
+                <img class="logo" src="assets/img/logo-sky-white.png" alt="logo">
+                
+            </a>
+        </span>
+        <span class="example-spacer">
+            <div class="subMenu" >
+                <mat-icon class="iconMenu">accessibility</mat-icon>
+                <mat-icon class="iconMenu">brightness_medium</mat-icon>
+                
+                <span class="letterI"><strong>A-</strong></span>
+                <span class="letterI"><strong>A+</strong></span>
+
+                <div class="playOption">
+                    <mat-icon class="playPosition">play_circle_outline</mat-icon>
+                    <span class="letterE">Play</span>
+                </div>
+               
+            </div>
+            
+
+        </span>
+        <div class="otherMenu" fxShow="true" fxHide.lt-md="true">
+          <!-- <a mat-button routerLink="/about-us">About us</a> -->
+         <div class="menuUser">
+            <mat-icon class="iconColor">perm_identity</mat-icon>
+            <span class="letterP">Entrar</span>
+            <mat-icon class="letterT">search</mat-icon>
+         </div>
+        </div>
+        <div fxShow="true" fxHide.gt-sm="true">
+            <button class="btMenu" mat-icon-button (click)="sidenav.toggle()">
+              <mat-icon class="mIcon">menu</mat-icon>
+            </button>
+          </div>
+      </mat-toolbar>
+      <mat-sidenav-container  fxFlexFill class="example-container">
+        <mat-sidenav class="sidenav" position="end"  #sidenav fxLayout="column" mode="over" opened="false" fxHide.gt-sm="true">
+          <div fxLayout="column">
+            <a mat-button routerLink="/about-us">About us</a>
+            <a mat-button routerLink="/prices">Prices</a>
+            <a mat-button routerLink="/start-page">Start page</a>
+            <a mat-button routerLink="/offer">Offer</a>
+            <a mat-button routerLink="/contact">Contact</a>
+          </div>
+        </mat-sidenav>
+        <app-tabs></app-tabs>
+      </mat-sidenav-container>
+   
+    

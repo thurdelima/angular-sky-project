@@ -1,0 +1,167 @@
+.logo {
+    /* background-image: url('https://skyplay.sky.com.br/o/sky-play-theme/images/logo-sky-white.svg'); */
+    width: 65px;
+    color: #f35c58;
+}
+
+.iconMenu {
+    color: #606064;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 5px
+
+}
+
+.letterI {
+    background-color: #ffff;
+    color: #606064;
+    border-radius: 25px;
+    margin: 5px;
+    /* padding: 0px; */
+    font-size: 17px;
+    padding-left: 6px;
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.playOption {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    color: #606064;
+    cursor: pointer;
+}
+
+.playPosition {
+    margin-right: 10px;
+    
+}
+
+.borderMenu {
+    border-bottom: 1px double #6060641c;
+}
+
+.btMenu {
+    border-color: transparent;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.mIcon {
+    color: #606064;
+    font-size: 40px;
+   
+}
+
+.example-spacer {
+    margin-left: 30px;
+}
+
+.subMenu {
+    display: flex;
+    -ms-flex-direction: row;
+}
+
+.otherMenu {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.menuUser {
+    display: flex;
+    align-items: center;
+}
+
+.letterE {
+    font-size: 1rem;
+}
+
+.letterP {
+    font-size: 1rem;
+    margin-left: 10px;
+    color: #606064;
+    
+}
+
+.letterT {
+   
+    margin-left: 20px;
+    color: #606064;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+
+.iconColor {
+    color: #606064;
+}
+
+@media (max-width: 768px) {
+  .example-spacer {
+      opacity: 0;
+  }
+         
+        
+}
+
+
+
+
+.companyName{
+    font-size: 150%;
+}
+div {
+    overflow: inherit;
+}
+a{
+    text-decoration: none;
+    font-size: 110%;
+    white-space: normal;
+}
+button{
+    font-size: 110%;
+    min-width: min-content;
+}
+.example-icon {
+    padding: 0 14px;
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-sidenav-content{
+      font-size: 200%;
+      text-align: center;
+  }
+
+
+  .sidenav {
+    background-color: #f5f5f5;
+    width: 150px;
+}
+
+.sidenav a {
+    color: #606064;
+    margin: 5px
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #FFF;
+}
+
+  
+
+
+
